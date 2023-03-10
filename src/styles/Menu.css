@@ -1,0 +1,24 @@
+.Nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  color: white;
+}
+
+.LinksContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.Links__li {
+  list-style: none;
+  display: flex;
+}
+
+.Links__li--name {
+  color: white;
+  text-decoration: none;
+}

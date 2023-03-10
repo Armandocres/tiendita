@@ -1,0 +1,26 @@
+h2 {
+  color: white;
+}
+
+.ContainerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FormContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border-radius: 10px;
+  border: none;
+  height: 30px;
+}
+
+button {
+  margin-top: 15px;
+  border-radius: 10px;
+  border: none;
+}

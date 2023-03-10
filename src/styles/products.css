@@ -1,0 +1,17 @@
+.ContainerProducts {
+  padding: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.0rem;
+  width: auto;
+  display: grid;
+}
+
+.link {
+  margin-top: 50px;
+}
+
+.link__a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
