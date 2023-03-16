@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
+import Product from './Product';
 
 const OnliCategory = () => {
   const [category, setCategory] = useState();
@@ -18,11 +19,11 @@ const OnliCategory = () => {
     productOnly();
   }, [productOnly]);
 
-  console.log(category);
-
   return (
     <div>
-      <p>Holaaaaaaaaaaa</p>
+      {category?.products.map(product => (
+          <Product key={product.id} product={product}/>
+          ))}
     </div>
   )
 }
